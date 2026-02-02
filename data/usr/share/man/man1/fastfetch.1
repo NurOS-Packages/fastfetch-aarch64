@@ -1,4 +1,4 @@
-.TH FASTFETCH 1  "Feb 02 2026" "Fastfetch 2.48.1" "FASTFETCH"
+.TH FASTFETCH 1  "Feb 02 2026" "Fastfetch 2.49.0" "FASTFETCH"
 .SH NAME
 fastfetch \- A fast and feature-rich system information tool similar to neofetch
 .SH SYNOPSIS
@@ -366,6 +366,16 @@ Any combination of options can be made permanent by generating a configuration f
  See `-h color` for the list of available colors
 
 .TP
+\fB\-\-duration-abbreviation\fR [\fIbool\fR]
+ Specify whether to abbreviate duration values
+
+ If true, the output will be in the form of "1h 2m" instead of "1 hour, 2 mins"
+
+.TP
+\fB\-\-duration-space-before-unit\fR \fIenum\fR
+ Specify whether to put a space before the unit in duration values
+
+.TP
 \fB\-\-key-width\fR \fInum\fR
  Align the width of keys to <num> characters
 
@@ -431,6 +441,16 @@ Any combination of options can be made permanent by generating a configuration f
  See `-h color` for the list of available colors
 
 .TP
+\fB\-\-percent-space-before-unit\fR \fIenum\fR
+ Specify whether to put a space before the percentage symbol
+
+.TP
+\fB\-\-percent-width\fR \fInum\fR
+ Specify the width of the percentage number, in number of characters
+
+ This option affects only percentage numbers, not bars
+
+.TP
 \fB\-\-bar-char-elapsed\fR \fIstr\fR
  Set the character to use in the elapsed part of percentage bars
 
@@ -467,8 +487,16 @@ Any combination of options can be made permanent by generating a configuration f
  Set the largest binary prefix to use when formatting sizes
 
 .TP
+\fB\-\-size-space-before-unit\fR \fIenum\fR
+ Specify whether to put a space before the unit
+
+.TP
 \fB\-\-freq-ndigits\fR \fInum\fR
  Set the number of digits to keep after the decimal point when printing CPU/GPU frequency in GHz
+
+.TP
+\fB\-\-freq-space-before-unit\fR \fIenum\fR
+ Specify whether to put a space before the unit
 
 .TP
 \fB\-\-fraction-ndigits\fR \fInum\fR
@@ -501,6 +529,10 @@ Any combination of options can be made permanent by generating a configuration f
  Set color used for the red state of temperature values
 
  See `-h color` for the list of available colors
+
+.TP
+\fB\-\-temp-space-before-unit\fR \fIenum\fR
+ Specify whether to put a space before the unit
 
 .SS Module specific
 .TP
