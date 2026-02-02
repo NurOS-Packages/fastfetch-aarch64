@@ -1,6 +1,6 @@
 package:
   name: "fastfetch"
-  version: "2.40.4"
+  version: "2.41.0"
   type: "binary"
   architecture: "aarch64"
   description: "Fast system information tool"
