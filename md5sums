@@ -1,5 +1,5 @@
-5449c4c2b48dedd69e29c218407c2fd0  usr/bin/fastfetch
-201027379ab67bc284b71f4c8d5144a6  usr/bin/flashfetch
+5836f8cfbdf4d369e38a75cf26128f32  usr/bin/fastfetch
+7746f01c657eb7eff922abf004d341f4  usr/bin/flashfetch
 7744128b199baa060c4e243e9fb1a6de  usr/share/fastfetch/presets/examples/13.jsonc
 f1185bcf365eb84994f25af191c9c701  usr/share/fastfetch/presets/examples/11.jsonc
 48e5a6324fecdd6677a44c71baf5b454  usr/share/fastfetch/presets/examples/5.jsonc
@@ -25,6 +25,7 @@ e907a2a9283cdfa9554532f6463ed218  usr/share/fastfetch/presets/examples/15.jsonc
 e9ded6b02ea97eb17d5dd10ce5e9a28a  usr/share/fastfetch/presets/examples/2.jsonc
 a64b3d5964f26940428c218d1226e1a3  usr/share/fastfetch/presets/examples/17.jsonc
 1f38468c1ed082c6fd001b9e75ce9e2a  usr/share/fastfetch/presets/examples/10.jsonc
+ded4c7e1cefb6fa668d74f1fd9b5b2eb  usr/share/fastfetch/presets/examples/27.jsonc
 685f3043fce67c40f06b4d25f89a7a80  usr/share/fastfetch/presets/ci.jsonc
 e53670db7876bc78f28f2e8077bd6b55  usr/share/fastfetch/presets/paleofetch.jsonc
 875cb416107040f684368cbb614d15ef  usr/share/fastfetch/presets/all.jsonc
@@ -34,5 +35,5 @@ c7bf01d2884f3c86e3fe107c3e38dc8a  usr/share/fastfetch/presets/archey.jsonc
 2ddd97e6b3c3f3724bf8e7363dc379f0  usr/share/zsh/site-functions/_fastfetch
 83d9effb45945153bc98303441b5c03f  usr/share/licenses/fastfetch/LICENSE
 d762362cd4e817099017c0a9368c212b  usr/share/fish/vendor_completions.d/fastfetch.fish
-975252e8190c5a6fbf94ee5415105efe  usr/share/man/man1/fastfetch.1
+182a1166404d4cd5695b63fc34da794f  usr/share/man/man1/fastfetch.1
 4cfd4415c3914390f8b535a5de4030a2  usr/share/bash-completion/completions/fastfetch

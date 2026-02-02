@@ -1,4 +1,4 @@
-.TH FASTFETCH 1  "Feb 02 2026" "Fastfetch 2.47.0" "FASTFETCH"
+.TH FASTFETCH 1  "Feb 02 2026" "Fastfetch 2.48.0" "FASTFETCH"
 .SH NAME
 fastfetch \- A fast and feature-rich system information tool similar to neofetch
 .SH SYNOPSIS
@@ -469,6 +469,12 @@ Any combination of options can be made permanent by generating a configuration f
 .TP
 \fB\-\-freq-ndigits\fR \fInum\fR
  Set the number of digits to keep after the decimal point when printing CPU/GPU frequency in GHz
+
+.TP
+\fB\-\-fraction-ndigits\fR \fInum\fR
+ Set the number of digits to keep after the decimal point when printing ordinary fraction numbers
+
+ If negative, the number of digits will be automatically determined based on the value
 
 .TP
 \fB\-\-temp-unit\fR \fIenum\fR
