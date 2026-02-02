@@ -1,4 +1,4 @@
-.TH FASTFETCH 1  "Feb 02 2026" "Fastfetch 2.54.0" "FASTFETCH"
+.TH FASTFETCH 1  "Feb 02 2026" "Fastfetch 2.55.0" "FASTFETCH"
 .SH NAME
 fastfetch \- A fast and feature-rich system information tool similar to neofetch
 .SH SYNOPSIS
@@ -114,6 +114,12 @@ Any combination of options can be made permanent by generating a configuration f
  Enable or disable JSON output
 
  Shortcut for `--format json`
+
+.TP
+\fB\-\-dynamic-interval\fR \fInum\fR
+ Keep fastfetch open and update the output every <num> milliseconds
+
+ 0 (default) to disable the behavior; don't work with --json
 
 .SS Config
 .TP
