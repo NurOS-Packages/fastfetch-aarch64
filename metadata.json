@@ -1,0 +1,31 @@
+{
+  "name": "fastfetch",
+  "version": "2.33.0",
+  "type": "binary",
+  "architecture": "aarch64",
+  "description": "Fast system information tool",
+  "maintainer": "APGer <anmitali198@gmail.com>",
+  "license": "MIT",
+  "tags": [
+    "system",
+    "info",
+    "cli",
+    "neofetch",
+    "nuros"
+  ],
+  "homepage": "https://github.com/fastfetch-cli/fastfetch",
+  "dependencies": [
+    "libvulkan1",
+    "libwayland-client0",
+    "libxcb-randr0",
+    "libxrandr2",
+    "libdbus-1-3",
+    "libpci3",
+    "libdrm2",
+    "libpulse0"
+  ],
+  "conflicts": [],
+  "provides": [],
+  "replaces": [],
+  "conf": []
+}
