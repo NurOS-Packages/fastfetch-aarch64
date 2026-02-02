@@ -1,6 +1,6 @@
 {
   "name": "fastfetch",
-  "version": "2.56.1",
+  "version": "2.57.0",
   "type": "binary",
   "architecture": "aarch64",
   "description": "Fast system information tool",
